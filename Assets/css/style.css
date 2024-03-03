@@ -19,12 +19,11 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,14 +31,19 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
+    text-align: right;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
+    position: relative;
+    top: 0%;
+    right: 500px;
+    font-size: 20px;
+    }
 
 a {
     color: #ffffff;
