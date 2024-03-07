@@ -3,26 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/* sets padding and margin to 0 for the whole webpage */
 body {
     background-color: #d9dcd6;
 }
-
+/* sets the background color for the page */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* sets rules for all header class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/* displays h1 as an inline block and increases font size */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* changed the color for three letters in the h1 */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -30,7 +31,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* changed the font family and size for items in the nav element */
 .header nav ul {
     list-style-type: none;
     text-align: right;
@@ -44,7 +45,7 @@ body {
     right: 500px;
     font-size: 20px;
     }
-
+/* repositions the list elements to have proper spacing */
 a {
     color: #ffffff;
     text-decoration: none;
